@@ -1,0 +1,40 @@
+/* @theme test-theme */
+
+@import 'gaia';
+@import url('https://www.unpkg.com/tailwindcss@2.2.19/dist/utilities.min.css');
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:400,900|Fira+Code:400,700&display=swap');
+
+section table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section table thead th {
+  font-size: 20px;
+}
+
+section {
+  font-size: 20px;
+  font-family: "Be Vietnam Pro", 'Avenir Next', Avenir, 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+
+section:where(.lead){
+  font-size: 20px;
+}
+
+section:where(.lead) h1{
+  font-size: 60px;
+}
+
+section:where(.lead) h2{
+  font-size: 40px;
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+}
+
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
